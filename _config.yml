@@ -96,7 +96,7 @@ author:
   name             : "Divy Bramhecha"
   avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
   bio              : "Data Science Portfolio"
-  location         : "Edinburgh"
+  location         : "Edinburgh, UK"
   email            :
   links:
     - label: "Email"
@@ -106,7 +106,7 @@ author:
       icon: "fas fa-fw fa-link"
       # url: "https://your-website.com"
     - label: "Linkedin"
-      icon: "fab fa-fw fa-twitter-square"
+      icon: "fab fa-fw fa-linkedin-square"
       url: "https://www.linkedin.com/in/divy-bramhecha/"
     - label: "Facebook"
       icon: "fab fa-fw fa-facebook-square"
