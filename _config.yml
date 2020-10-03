@@ -20,7 +20,7 @@ title                    : "Divy Bramhecha"
 title_separator          : "-"
 subtitle                 : # site tagline that appears below site title in masthead
 name                     : "Divy Bramhecha"
-description              : "An amazing website."
+description              : "My Portfolio"
 url                      : # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
@@ -93,10 +93,10 @@ analytics:
 
 # Site Author
 author:
-  name             : "Your Name"
+  name             : "Divy Bramhecha"
   avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "I am an **amazing** person."
-  location         : "Somewhere"
+  bio              : "Data Science Portfolio"
+  location         : "Edinburgh"
   email            :
   links:
     - label: "Email"
@@ -105,15 +105,15 @@ author:
     - label: "Website"
       icon: "fas fa-fw fa-link"
       # url: "https://your-website.com"
-    - label: "Twitter"
+    - label: "Linkedin"
       icon: "fab fa-fw fa-twitter-square"
-      # url: "https://twitter.com/"
+      url: "https://www.linkedin.com/in/divy-bramhecha/"
     - label: "Facebook"
       icon: "fab fa-fw fa-facebook-square"
       # url: "https://facebook.com/"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-      # url: "https://github.com/"
+      url: "https://github.com/tgdivy"
     - label: "Instagram"
       icon: "fab fa-fw fa-instagram"
       # url: "https://instagram.com/"
