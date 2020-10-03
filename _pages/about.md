@@ -1,6 +1,6 @@
 ---
 permalink: /
-title: "Carel van Niekerk"
+title: "Divy Bramhecha"
 excerpt: "About me"
 author_profile: true
 redirect_from: 
@@ -10,4 +10,6 @@ redirect_from:
 
 About Me
 ======
-I am a Research Scientist and Doctoral student in the [Dialogue Systems and Machine Learning group](https://www.cs.hhu.de/en/research-groups/dialog-systems-and-machine-learning.html) at HHU in Düsseldorf. I was born in South Africa and received a Masters degree in Mathematical Statistics with distinction at the University of Pretoria in 2018. My main research interest lie in distributional deep learning and the understanding of deep learning models. I am currently working on Dialogue Belief Tracking and Uncertainty in Deep Learning for the next generation of Dialogue Systems.
+My Inspiration in AI stems from my deep interests in Philosophy, Psychology and Engineering. I feel that if one day we do create an object with thoughts at least as real as us we could find a lot about our purpose of life. Currently I am a student and exploring all methods of developing AI, from Deep Neural Networks to Genetic models. 
+
+I am writing a tutorial blog series, which covers all my research and explains it to people interested in learning Natural Language Processing!

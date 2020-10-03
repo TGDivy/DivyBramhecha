@@ -7,10 +7,10 @@
 
 # Site Settings
 locale                   : "en-US"
-title                    : "Carel van Niekerk"
+title                    : "Divy Bramhecha"
 title_separator          : "-"
-name                     : &name "Carel van Niekerk"
-description              : &description "Research Scientist at Heinrich-Heine-Universität, Düsseldorf"
+name                     : &name "Divy Bramhecha"
+description              : &description "Studen at University of edinburgh"
 url                      : https://TGDivy.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "TGDivy.github.io"
@@ -80,14 +80,14 @@ analytics:
 
 # Site Author
 author:
-  name             : "Carel van Niekerk"
+  name             : "Divy Bramhecha"
   avatar           : "profile.png"
-  bio              : "Research Scientist and Doctorate Student"
-  location         : "Düsseldorf, Germany"
+  bio              : "NLP Researcher and an Undergraduate Student"
+  location         : "Edinburgh, UK"
   employer         :
   pubmed           : 
-  googlescholar    : "https://scholar.google.com/citations?view_op=list_works&hl=en&user=Asit7LQAAAAJ"
-  email            : niekerk@hhu.de
+  googlescholar    :
+  email            : s1885517@ed.ac.uk
   researchgate     :  # example: "https://www.researchgate.net/profile/yourprofile"
   uri              : "https://gitlab.cs.uni-duesseldorf.de/niekerk"
   bitbucket        :
@@ -96,13 +96,13 @@ author:
   flickr           :
   facebook         :
   foursquare       :
-  github           : "carelvniekerk"
+  github           : "tgdivy"
   google_plus      :
   keybase          :
-  instagram        :
+  instagram        : "https://www.instagram.com/life.bydivy/"
   impactstory      : #"https://profiles.impactstory.org/u/xxxx-xxxx-xxxx-xxxx"
   lastfm           :
-  linkedin         : "carel-van-niekerk-4718678a"
+  linkedin         : "https://www.linkedin.com/in/divy-bramhecha/"
   orcid            : #"http://orcid.org/yourorcidurl"
   pinterest        :
   soundcloud       :
