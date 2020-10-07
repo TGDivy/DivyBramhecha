@@ -7,11 +7,11 @@ main:
   - title: "Blog Posts"
     url: /year-archive/
 
-  - title: "Publications"
-    url: /publications/
+  # - title: "Publications"
+  #   url: /publications/
 
-  - title: "Events"
-    url: /events/
+  # - title: "Events"
+  #   url: /events/
 
 #   - title: "Talks"
 #     url: /talks/    
