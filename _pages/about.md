@@ -10,6 +10,11 @@ redirect_from:
 
 About Me
 ======
-My Inspiration in AI stems from my deep interests in Philosophy, Psychology and Engineering. I feel that if one day we do create an object with thoughts at least as real as us we could find a lot about our purpose of life. Currently I am a student and exploring all methods of developing AI, from Deep Neural Networks to Genetic models. 
 
-I am writing a tutorial blog series, which covers all my research and explains it to people interested in learning Natural Language Processing!
+My Inspiration in AI stems from my deep interests in Philosophy,
+Psychology and Engineering. I feel that if one day we do create an
+object with thoughts at least as real as us we could find a lot about
+our purpose of life. Until then, my purpose is to try to create such an
+intelligence. Currently, I am a undergrad and want to explore all
+subtopics of AI like: Natural Language Processing, Vision, and
+Reinforcement Learning.
