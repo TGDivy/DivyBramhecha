@@ -7,7 +7,7 @@ author_profile: true
 {% include base_path %}
 
 Why would this not appear?
-<!-- {% if author.googlescholar %}
+{% if author.googlescholar %}
   You can also find my articles on <u><a href="{{author.googlescholar}}">my Google Scholar profile</a>.</u>
 {% endif %}
 
@@ -15,4 +15,4 @@ Why would this not appear?
 
 {% for post in site.publications reversed %}
   {% include archive-single.html %}
-{% endfor %} -->
+{% endfor %}
