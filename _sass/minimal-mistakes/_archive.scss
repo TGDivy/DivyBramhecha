@@ -248,6 +248,15 @@
   }
 }
 
+p,
+dl {
+  font-size: $type-size-6;
+}
+
+li{
+  font-size: $type-size-5;
+}
+
 .feature__item {
   position: relative;
   margin-bottom: 2em;
@@ -333,6 +342,8 @@
       }
     }
   }
+
+  
 
   &--right {
     position: relative;

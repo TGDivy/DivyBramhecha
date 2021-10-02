@@ -1,5 +1,5 @@
 ---
-layout: archive
+layout: single
 title: "CV"
 permalink: /cv/
 author_profile: true
@@ -9,14 +9,14 @@ redirect_from:
 
 {% include base_path %}
 
-Education
+## Education
 
-**BSc. Hons Artificial Intelligence**, University of Edinburgh\
-A lot of extra credits taken in mathematics and computer science (==doing the 2nd year twice with unique courses) 
+**BSc. Hons Artificial Intelligence**, University of Edinburgh
+
 **Some Relevant Courses taken:** 
 Introductory Applied Machine Learning, Foundations of Natural Language Processing, Speech Processing, Stochastic Modelling, Numerical Ordinary Differential Equations, System Design Project, Reasoning and Agents, Linear Programming Modelling and solutions, (and a lot of courses in year 1 and 2 that focus on foundation of these topics)
 
-EXPERIENCE
+## EXPERIENCE
 
 **NLP Research Intern [teampage](https://www.cs.hhu.de/en/research-groups/dialog-systems-and-machine-learning-prof-dr-milica-gasic/our-team.html)**
 May 2020 - Oct 2020\

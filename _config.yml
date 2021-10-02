@@ -28,7 +28,7 @@ teaser                   : # path of fallback teaser image, e.g. "/assets/images
 logo                     : # path of logo image to display in the masthead, e.g. "/assets/images/88x88.png"
 masthead_title           : # overrides the website title displayed in the masthead, use " " for no title
 breadcrumbs              : true # true, false (default)
-words_per_minute         : 200
+words_per_minute         : 160
 comments:
   provider               : # false (default), "disqus", "discourse", "facebook", "staticman", "staticman_v2", "utterances", "giscus", "custom"
   disqus:
@@ -98,7 +98,15 @@ analytics:
     tracking_id          : G-Z96HM8TPW7
     anonymize_ip         : # true, false (default)
 
-
+collections:
+  teaching:
+    output: true
+  talks:
+    output: true
+  publications:
+    output: true
+  portfolio:
+    output: true
 # Site Author
 author:
   name             : "Divy Bramhecha"
@@ -151,7 +159,6 @@ include:
   - _portfolio
   - _talks
   - pages
-  - [_pages]
 exclude:
   - "*.sublime-project"
   - "*.sublime-workspace"
@@ -300,8 +307,10 @@ defaults:
     values:
       layout: single
       author_profile: true
-      share: true
+      read_time: true
       comments: true
+      share: true
+      related: true
   # _publications
   - scope:
       path: ""
@@ -320,6 +329,7 @@ defaults:
       author_profile: true
       share: true
       comment: true
+      related: false
   # _talks
   - scope:
       path: ""
