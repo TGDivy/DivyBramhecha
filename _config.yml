@@ -150,6 +150,8 @@ include:
   - _teaching
   - _portfolio
   - _talks
+  - pages
+  - [_pages]
 exclude:
   - "*.sublime-project"
   - "*.sublime-workspace"
