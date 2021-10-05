@@ -11,3 +11,13 @@ author_profile: true
 {% for post in site.portfolio %}
 {% include archive-single.html %}
 {% endfor %}
+
+{% for staff_member in site.portfolio %}
+<h2>
+    <a href="{{ staff_member.url }}">
+        {{ staff_member.title }}
+    </a>
+</h2>
+staff_member.header.overlay_image
+<p>{{ staff_member.extract | markdownify }}</p>
+{% endfor %}
