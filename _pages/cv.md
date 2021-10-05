@@ -1,38 +1,73 @@
 ---
 layout: single
-title: "CV"
+title: "Resume"
 permalink: /cv/
 author_profile: true
+classes: wide
 redirect_from:
   - /resume
 ---
-
 {% include base_path %}
+---
 
-## Education
+### Education
 
-**BSc. Hons Artificial Intelligence**, University of Edinburgh
+**BSc. Hons Artificial Intelligence**, The University of Edinburgh
 
-**Some Relevant Courses taken:** 
-Introductory Applied Machine Learning, Foundations of Natural Language Processing, Speech Processing, Stochastic Modelling, Numerical Ordinary Differential Equations, System Design Project, Reasoning and Agents, Linear Programming Modelling and solutions, (and a lot of courses in year 1 and 2 that focus on foundation of these topics)
+<p style="text-align:left;">
+    First Class Honors
+    <span style="float:right;">
+        Sept 2018 - May 2022
+    </span>
+</p>
 
-## EXPERIENCE
+---
 
-**NLP Research Intern [teampage](https://www.cs.hhu.de/en/research-groups/dialog-systems-and-machine-learning-prof-dr-milica-gasic/our-team.html)**
-May 2020 - Oct 2020\
-**at Dialog Systems And Machine Learning Group, Heinrich Heine
-Universität** Worked on [DSTC9 competition](https://dstc9.dstc.community/tracks), Beyond Domain APIs: Task-oriented Conversational Modeling with Unstructured Knowledge Access. Supervised by Dr. Milica Gasic and Dr. Michael Heck. The challenge was a group effort, and **I worked on the second sub task**. This involved extracting the correct knowledge entry from external knowledge sources to support friction-less task-oriented scenarios, where the flow of the conversation does not break when users have requests that are out of the scope of APIs/DB but potentially are already available in external knowledge sources. The work done in this competition will be used to **submit a paper to AAAI** conference. (The competition results will be announced post October 19th, and I cannot mention any further details about my work here until then.)
+### EXPERIENCE
 
-**Tutor, Demonstrator and Marker at University of Edinburgh** Sep 2019 - Present\
-Appointed for 1st and 3rd courses namely Introduction to Applied Machine Learning, Computational Logic, and Functional Programming. Requires me to have a thorough understanding of these topics, and the ability to
-explain them well.
+---
 
-**Machine Learning Engineer (part-time remote)** Jul 2019 - Nov 2019\
-at **Mihup**: An Indian tech company for ASR and information retrieval in Regional Indian Languages. **Goal:** An app which translates Indian signboards from various regional languages to English. **I** worked on the image to characters model. This required me research a lot of models present, and how they can be utilized in low resource settings. **Skills Used:** Google Cloud, PyTorch, CNN's, RCNN's
+**Data Science Intern [teampage](https://adarga.ai/article/welcome-adarga-interns-2021)** 
 
-PROJECTS
+<p style="text-align:left;">
+    at Adarga, London.
+    <span style="float:right;">
+        June 2021 - Sept 2021
+    </span>
+</p>
 
-**AI based Poem generator with [tutorial blogs.](https://web.archive.org/web/20191215191035/https://divybramhecha.tech/category/research/)** 
+- Work in an agile, user-centered space.
+- Prototying, developing and deploying natural languge models in a continuous integration and deployment following the MLOps principles.
+- Making extensive use of Pachyderm, Seldon and ArgoCD while prototying models.
+- Deploying the machine learning models in Kubernetes with Apache Kafka.
+- Creating user centric analysis reports, to inform the direction of the projects.
+
+---
+
+**NLP Research Intern [teampage](https://www.cs.hhu.de/en/research-groups/dialog-systems-and-machine-learning/our-team/alumni)** 
+
+<p style="text-align:left;">
+    at Dialog Systems And Machine Learning Group, Heinrich Heine Universität
+    <span style="float:right;">
+        May 2020 - Oct 2020
+    </span>
+</p>
+
+Supervised by Dr. Milica Gasic and Dr. Michael Heck, I worked on [DSTC9 competition](https://dstc9.dstc.community/tracks) 
+- Beyond Domain APIs: Task-oriented Conversational Modeling with Unstructured Knowledge Access. 
+- I developed novel algorithms to extract the correct knowledge entry/ intent and match them with external knowledge sources. 
+- This allows for frictionless conversation in cases where user requests are out of scope of existing APIs and Data bases.
+- I developed and experimented with various models, writing distributed GPU code in PyTorch, and Google Cloud.
+
+---
+
+### Teaching 
+
+---
+
+### PROJECTS
+
+<!-- **AI based Poem generator with [tutorial blogs.](https://web.archive.org/web/20191215191035/https://divybramhecha.tech/category/research/)** 
 Using Natural Language Modelling, and Understanding with Probabilistic, feature Engineering Approach to generate unique poems! Writing tutorials on the same in blog posts, clearly communicating the knowledge of the subject.
 
 **Web Scrapper for Poetry Foundation
@@ -46,4 +81,17 @@ between the subject and the verb increases.
 
 **MB-TI Personality classifier
 [link.](https://github.com/TGDivy/MBTI-Personality-Classifier)** 
-This was one my first projects in NLP. Created a group of classifier NLP models which use your social media posts to predict your MB-TI personality type.
+This was one my first projects in NLP. Created a group of classifier NLP models which use your social media posts to predict your MB-TI personality type. -->
+
+{% for staff_member in site.portfolio %}
+
+<a href="{{ staff_member.url }}">
+    {{ staff_member.title }}
+
+![alt]({{ staff_member.header_teaser }}){:width="250px"}
+
+{{staff_member.excerpt}}
+
+---
+
+{% endfor %}
