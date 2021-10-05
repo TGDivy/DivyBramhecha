@@ -1,23 +1,77 @@
 ---
-layout: archive
-title: "Portfolio"
+layout: single
+title: "Projects"
 permalink: /portfolio/
 author_profile: true
+classes: wide
 ---
+
+<style>
+    /* Container for flexboxes */
+    sections {
+        display: -webkit-flex;
+        display: flex;
+
+    }
+
+    /* Style the navigation menu */
+    navs {
+        -webkit-flex: 1;
+        -ms-flex: 1;
+        flex: 1;
+        /* background: #ccc; */
+        padding: 10px;
+
+        /* border-radius: 10px; */
+        ;
+    }
+
+    /* Style the content */
+    articles {
+        -webkit-flex: 3;
+        -ms-flex: 3;
+        flex: 3;
+        /* background-color: #f1f1f1; */
+        padding: 10px;
+
+
+        border: black;
+        border-style: dashed;
+        border-left: hidden;
+        border-top: hidden
+    }
+
+    /* Style the footer */
+
+    /* Responsive layout - makes the menu and the content (inside the section) sit on top of each other instead of next to each other */
+    @media (max-width: 600px) {
+        section {
+            -webkit-flex-direction: column;
+            flex-direction: column;
+        }
+    }
+</style>
 
 {% include base_path %}
 
-
-{% for post in site.portfolio %}
-{% include archive-single.html %}
-{% endfor %}
-
 {% for staff_member in site.portfolio %}
-<h2>
-    <a href="{{ staff_member.url }}">
-        {{ staff_member.title }}
-    </a>
-</h2>
-staff_member.header.overlay_image
-<p>{{ staff_member.extract | markdownify }}</p>
+
+<sections>
+    <navs>
+        <a href="{{ staff_member.url }}">
+            <img src={{ staff_member.header_teaser }} alt="teaser">
+        </a>
+    </navs>
+    <articles>
+        <h1>
+            <a href="{{ staff_member.url }}">
+                {{ staff_member.title }}
+            </a>
+        </h1>
+        <p>
+            {{ staff_member.excerpt }}
+        </p>
+    </articles>
+</sections>
+<br>
 {% endfor %}
