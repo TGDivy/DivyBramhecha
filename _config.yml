@@ -110,7 +110,7 @@ collections:
 # Site Author
 author:
   name             : "Divy Bramhecha"
-  avatar           : "images/profile.jpg" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
+  avatar           : "images/profile.jpeg" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
   bio              : "CS and AI Student"
   location         : "Edinburgh, UK"
   email            :
