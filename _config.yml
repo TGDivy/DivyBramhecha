@@ -71,7 +71,7 @@ google:
   search_engine_id       : # YOUR_SEARCH_ENGINE_ID
   instant_search         : # false (default), true
 # SEO Related
-google_site_verification :
+google_site_verification : Oh1v2Tug36CBwjhgyNWz3O_gOJ-lldwqOUR_Xpn7U0s
 bing_site_verification   :
 yandex_site_verification :
 naver_site_verification  :
@@ -89,7 +89,8 @@ og_image                 : /images/Logo.png # Open Graph/Twitter default site im
 social:
   type                   : Person # Person or Organization (defaults to Person)
   name                   : Divy bramhecha # If the user or organization name differs from the site's name
-  links: [https://www.linkedin.com/in/divy-bramhecha/] # An array of links to social media profiles
+  links: 
+    - https://www.linkedin.com/in/divy-bramhecha/ # An array of links to social media profiles
 
 # Analytics
 analytics:
