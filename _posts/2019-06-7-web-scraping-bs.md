@@ -1,6 +1,6 @@
 ---
 title: 'Web Scrapping with Beautiful Soup. (Part-1a)'
-date: 2014-08-14
+date: 2019-06-07
 permalink: /posts/web-scraping/bs/
 excerpt: This article focuses on how to use Beautiful Soup for extracting information from the Poetry Foundation.
 tags:

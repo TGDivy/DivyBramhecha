@@ -5,6 +5,7 @@ collection: portfolio
 layout: single
 classes: wide
 header_teaser: ../../images/important_words/LowScore.png
+date: 2021-08-25
 ---
 
 ## Overview
