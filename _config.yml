@@ -20,7 +20,7 @@ title                    : "Divy Bramhecha"
 title_separator          : "-"
 subtitle                 : # site tagline that appears below site title in masthead
 name                     : &name "Divy Bramhecha"
-description              : &description "Senior at University of edinburgh"
+description              : &description "I’m a senior at University of Edinburgh. I specialize in Natural Language Processing. I'm fluent in Python and work in an agile, user-centered space."
 url                      : https://TGDivy.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "TGDivy/TGDivy.github.io" # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
