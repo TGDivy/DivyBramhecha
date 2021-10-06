@@ -8,7 +8,7 @@ main:
     url: /teaching/
   - title: "Projects"
     url: /portfolio/
-  - title: "Talks"
-    url: "/talks/"
+  - title: "Blog Posts"
+    url: "/posts/"
   # - title: "Sitemap"
   #   url: /sitemap/
