@@ -7,7 +7,7 @@ author_profile: true
 
 {% include base_path %}
 
-{% assign valid_tags = "nlp, category1, poem-generation" | split: ', ' % %}
+{% assign valid_tags = "poem-generation, web-scraping" | split: ', ' % %}
 
 <ul class="taxonomy__index">
 
