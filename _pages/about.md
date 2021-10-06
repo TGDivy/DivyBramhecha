@@ -2,6 +2,7 @@
 permalink: /
 layout: "home"
 title: "Hi!"
+description: "I’m a senior at University of Edinburgh. I specialize in Natural Language Processing. I'm fluent in Python and work in an agile, user-centered space."
 excerpt: "I’m a senior at University of Edinburgh. I specialize in Natural Language Processing. I'm fluent in Python and work in an agile, user-centered space."
 author_profile: true
 header:
