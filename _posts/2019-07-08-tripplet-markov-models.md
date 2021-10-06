@@ -3,6 +3,7 @@
 title: 'Triplet Markov Models! (part-2c)'
 date: 2019-07-04
 permalink: /posts/poem-generation/tripplet-markov-models/
+excerpt: ""
 tags:
   - poem-generation
   - nlp

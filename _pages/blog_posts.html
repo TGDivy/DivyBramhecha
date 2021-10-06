@@ -1,0 +1,103 @@
+---
+layout: single
+permalink: /posts/
+title: "Blog Posts"
+classes: wide
+author_profile: true
+---
+
+{% assign valid_tags = "poem-generation, web-scraping" | split: ', ' % %}
+
+
+<style>
+  /* Container for flexboxes */
+  sections {
+    display: -webkit-flex;
+    display: flex;
+
+  }
+
+  /* Style the navigation menu */
+  aside {
+    -webkit-flex: 1;
+    -ms-flex: 1;
+    flex: 1;
+    padding: 10px;
+  }
+
+  /* Style the content */
+  article {
+    -webkit-flex: 3;
+    -ms-flex: 3;
+    flex: 3;
+    padding: 10px;
+  }
+
+  /* Style the footer */
+
+  /* Responsive layout - makes the menu and the content (inside the section) sit on top of each other instead of next to each other */
+  @media (max-width: 600px) {
+    section {
+      -webkit-flex-direction: column;
+      flex-direction: column;
+    }
+  }
+</style>
+
+{% include base_path %}
+
+
+<ul class="taxonomy__index">
+
+  {% for tag in site.tags %}
+  {% if valid_tags contains tag[0] %}
+  {% assign posts = tag[1] %}
+  <li>
+    <a href="#{{ tag[0] }}">
+      <strong>{{ tag[0] }}</strong> <span class="taxonomy__count">{{ posts | size }}</span>
+    </a>
+  </li>
+  {% endif %}
+  {% endfor %}
+</ul>
+
+{% for tag in site.tags %}
+{% if valid_tags contains tag[0] %}
+{% assign posts = tag[1] %}
+
+<section id="{{ tag[0] }}" class="taxonomy__section">
+  <h1 class="archive__subtitle">{{ tag[0] | capitalize}}</h1>
+  <div class="entries-{{ entries_layout}}">
+    {% for post in posts %}
+
+    <sections>
+      <aside>
+        <a href="{{ post.url }}">
+          <img src={{ post.header.teaser }} width="250" alt="teaser">
+        </a>
+      </aside>
+      <article>
+        <h3>
+          <a href="{{ post.url }}">
+            {{ post.title }}
+          </a>
+        </h3>
+        <p>
+          {{post.date | date_to_long_string}}
+        </p>
+        <p>
+          {{ post.excerpt }}
+        </p>
+      </article>
+    </sections>
+    <a href="#page-title" class="back-to-top">{{ site.data.ui-text[site.locale].back_to_top | default: 'Back to Top' }}
+      &uarr;</a>
+    <br>
+    <hr>
+    {% endfor %}
+  </div>
+</section>
+
+
+{% endif %}
+{% endfor %}
