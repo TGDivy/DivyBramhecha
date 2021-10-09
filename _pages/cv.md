@@ -63,11 +63,53 @@ Supervised by Dr. Milica Gasic and Dr. Michael Heck, I worked on [DSTC9 competit
 
 ### [TEACHING](/teaching)
 
+<p style="text-align:left;">
+    <a href="http://www.drps.ed.ac.uk/20-21/dpt/cxinfd11005.htm">
+    Introduction to Applied Machine Learning
+    </a>
+    <span style="float:right;">
+        Semester 1, Semester 2
+    </span>
+    <br>
+    <b>Roles:</b> Tutor, Demonstrator, Marker
+    <span style="float:right;">
+        2020, 2021
+    </span>
+</p>
+
+<p style="text-align:left;">
+    <a href="http://www.drps.ed.ac.uk/19-20/dpt/cxinfr08025.htm">
+    Introduction to Computation
+    </a>
+    <span style="float:right;">
+        Semester 1
+    </span>
+
+    <br>
+    <b>Roles:</b> Tutor, Demonstrator, Marker
+    <span style="float:right;">
+        2019, 2020
+    </span>
+</p>
+
+<p style="text-align:left;">
+    <a href="http://www.drps.ed.ac.uk/20-21/dpt/cxinfr08010.htm">
+    Informatics 2D - Reasoning and Agents
+    </a>
+    <span style="float:right;">
+        Semester 1, Semester 2
+    </span>
+    <br>
+    <b>Roles:</b> Demonstrator
+    <span style="float:right;">
+        2020
+    </span>
+</p>
+
 ---
 
 ### [PROJECTS](/teaching)
 
----
 
 <!-- **AI based Poem generator with [tutorial blogs.](https://web.archive.org/web/20191215191035/https://divybramhecha.tech/category/research/)** 
 Using Natural Language Modelling, and Understanding with Probabilistic, feature Engineering Approach to generate unique poems! Writing tutorials on the same in blog posts, clearly communicating the knowledge of the subject.

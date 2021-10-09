@@ -54,7 +54,6 @@ The topics covered the following general areas, Using a modern machine learning 
         2019, 2020
     </span>
 </p>
-<p style="text-align:left;">
     
 
 </p>
