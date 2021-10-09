@@ -100,10 +100,6 @@ analytics:
     anonymize_ip         : # true, false (default)
 
 collections:
-  teaching:
-    output: true
-  talks:
-    output: true
   publications:
     output: true
   portfolio:
