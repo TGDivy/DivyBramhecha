@@ -1,5 +1,5 @@
 ---
-layout: archive
+layout: single
 title: "Teaching"
 permalink: /teaching/
 author_profile: true
@@ -21,7 +21,22 @@ author_profile: true
     </span>
 </p>
 
-Organisations seek to make better decisions by examining their data with an aim to discovering and/or drawing conclusions about the information contained within. This course is about the principled application of machine learning techniques to extracting information from data. The main area that will be discussed is supervised learning, which is concerned with learning to predict an output, given inputs. A second area of study is unsupervised learning, where we wish to discover the structure in a set of patterns, i.e. there is no output "teacher signal". The primary aim is to provide the student with a set of practical tools that can be applied to solve real - world problems in machine learning, coupled with an appropriate, principled approach to formulating a solution.
+The topics covered the following general areas, Using a modern machine learning programming environment and industry-standard libraries.:
+
+1. Review of maths and probability
+2. Feature engineering (e.g., basis transforms, selection , Principal Components Analysis)
+3. Classification vs. Regression
+4. Supervised methods e.g., 
+   - Naive Bayes 
+   - Decision Trees and Random Forests 
+   - Linear & Logistic Regression 
+   - Support Vector Machines
+   - Nearest Neighbours
+   - Neural Networks
+5. Unsupervised clustering methods 
+   - k-Means
+   - Gaussian Mixture Models
+   - Hierarchical Clustering
 
 ---
 
@@ -61,4 +76,8 @@ An introduction to concepts of programming, using a functional programming langu
     </span>
 </p>
 
-This course focuses on approaches relating to representation, reasoning and planning for solving real world inference. The course illustrates the importance of (i) using a smart representation of knowledge such that it is conducive to efficient reasoning, and (ii) the need for exploiting task constraints for intelligent search and planning. The notion of representing action, space and time is formalized in the context of agents capable of sensing the environment and taking actions that affect the current state. There is also a strong emphasis on the ability to deal with uncertain data in real world scenarios and hence, the planning and reasoning methods are extended to include inference in probabilistic domains.
+This course focuses on approaches relating to representation, reasoning and planning for solving real world inference. The course illustrates the importance of:
+- Using a smart representation of knowledge such that it is conducive to efficient reasoning
+- The need for exploiting task constraints for intelligent search and planning. 
+
+The notion of representing action, space and time is formalized in the context of agents capable of sensing the environment and taking actions that affect the current state. There is also a strong emphasis on the ability to deal with uncertain data in real world scenarios and hence, the planning and reasoning methods are extended to include inference in probabilistic domains.

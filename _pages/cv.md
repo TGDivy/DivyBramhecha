@@ -37,7 +37,7 @@ redirect_from:
 </p>
 
 - Work in an agile, user-centered space.
-- Prototying, developing and deploying natural languge models in a continuous integration and deployment following the MLOps principles.
+- Prototyping, developing and deploying natural language models in a continuous integration and deployment following the MLOps principles.
 - Making extensive use of Pachyderm, Seldon and ArgoCD while prototying models.
 - Deploying the machine learning models in Kubernetes with Apache Kafka.
 - Creating user centric analysis reports, to inform the direction of the projects.
@@ -56,16 +56,18 @@ redirect_from:
 Supervised by Dr. Milica Gasic and Dr. Michael Heck, I worked on [DSTC9 competition](https://dstc9.dstc.community/tracks) 
 - Beyond Domain APIs: Task-oriented Conversational Modeling with Unstructured Knowledge Access. 
 - I developed novel algorithms to extract the correct knowledge entry/ intent and match them with external knowledge sources. 
-- This allows for frictionless conversation in cases where user requests are out of scope of existing APIs and Data bases.
+- This allows for friction-less conversation in cases where user requests are out of scope of existing APIs and Data bases.
 - I developed and experimented with various models, writing distributed GPU code in PyTorch, and Google Cloud.
 
 ---
 
-### Teaching 
+### [TEACHING](/teaching)
 
 ---
 
-### PROJECTS
+### [PROJECTS](/teaching)
+
+---
 
 <!-- **AI based Poem generator with [tutorial blogs.](https://web.archive.org/web/20191215191035/https://divybramhecha.tech/category/research/)** 
 Using Natural Language Modelling, and Understanding with Probabilistic, feature Engineering Approach to generate unique poems! Writing tutorials on the same in blog posts, clearly communicating the knowledge of the subject.
@@ -83,7 +85,7 @@ between the subject and the verb increases.
 [link.](https://github.com/TGDivy/MBTI-Personality-Classifier)** 
 This was one my first projects in NLP. Created a group of classifier NLP models which use your social media posts to predict your MB-TI personality type. -->
 
-{% for staff_member in site.portfolio %}
+{% for staff_member in site.portfolio reversed%}
 
 <a href="{{ staff_member.url }}">
     {{ staff_member.title }}
