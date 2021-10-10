@@ -4,11 +4,13 @@ main:
   #   url: https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/
   - title: "CV"
     url: cv
-  - title: "Teaching"
-    url: /teaching/
   - title: "Projects"
     url: /portfolio/
+  - title: "Teaching"
+    url: /teaching/
   - title: "Blog Posts"
     url: "/posts/"
+  - title: "Publications"
+    url: /publications/
   # - title: "Sitemap"
   #   url: /sitemap/
