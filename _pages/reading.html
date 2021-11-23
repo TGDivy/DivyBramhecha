@@ -1,0 +1,218 @@
+---
+layout: single
+permalink: /reading/
+classes: single
+author_profile: true
+---
+
+<style>
+  /* Container for flexboxes */
+  sections {
+    display: -webkit-flex;
+    display: flex;
+
+  }
+
+  /* Style the navigation menu */
+  aside {
+    -webkit-flex: 1;
+    -ms-flex: 1;
+    flex: 1;
+    padding: 10px;
+    align-content: center;
+    align-self: center;
+  }
+
+  /* Style the content */
+  article {
+    -webkit-flex: 3;
+    -ms-flex: 3;
+    flex: 3;
+    padding: 10px;
+  }
+
+  /* Style the footer */
+
+  /* Responsive layout - makes the menu and the content (inside the section) sit on top of each other instead of next to each other */
+  @media (max-width: 600px) {
+    section {
+      -webkit-flex-direction: column;
+      flex-direction: column;
+    }
+  }
+</style>
+
+{% include base_path %}
+
+<style>
+  #gr_updates_widget {
+    /* border-radius: 5px;
+    border: solid #683205 10px; */
+    -webkit-box-shadow: 0px 0px 4px 1px #595959,
+      inset 0px 0px 0px 1px #7D730B;
+    -moz-box-shadow: 0px 0px 4px 1px #595959,
+      inset 0px 0px 0px 1px #7D730B;
+    box-shadow: 0px 0px 4px 1px #595959,
+      inset 0px 0px 0px 1px #7D730B;
+    /* padding: 15px 0 35px 15px; */
+    width: 600px;
+    height: 650px;
+
+    background: #dadada09;
+    margin-left: 30px;
+    -moz-border-radius: 12px;
+    -webkit-border-radius: 12px;
+    border-radius: 12px;
+    -moz-box-shadow: 4px 4px 14px #000;
+    -webkit-box-shadow: 4px 4px 14px #000;
+    box-shadow: 4px 4px 14px #000;
+    /* -moz-transform: rotate(deg); */
+  }
+
+  #gr_footer {
+    margin-bottom: 10px;
+  }
+
+  #gr_updates_widget p {
+    padding: 0px;
+    margin: 0;
+    font-size: 14px;
+  }
+
+  #gr_footer img {
+    width: 100px;
+    float: right;
+  }
+
+  #gr_updates_widget img {
+    border-style: none;
+  }
+</style>
+
+
+<div id="gr_updates_widget">
+  <div id="gr_challenge_11650" style="border-radius:10px; padding: 0px 7px 0px 7px; max-width:700px; min-height: 100px">
+    <div id="gr_challenge_progress_body_11650" style="font-size: 12px; font-family: georgia,serif;line-height: 18px">
+      <h3 style="margin: 4px 0 10px; font-weight: normal; text-align: center">
+        <a style="text-decoration: none; font-family:georgia,serif;font-style:italic; font-size: 1.1em" rel="nofollow"
+          href="https://www.goodreads.com/challenges/11650-2021-reading-challenge">2021 Reading Challenge</a>
+      </h3>
+      <div>
+        <a rel="nofollow" href="https://www.goodreads.com/user/show/143236026-divy-bramhecha">Divy</a> has
+        read 5 books toward
+        their goal of
+        7 books.
+      </div>
+      <div
+        style="width: 100px; margin: 4px 5px 5px 0; float: left; border: 1px solid #382110; height: 8px; overflow: hidden; background-color: rgb(77, 77, 77)">
+        <div style="width: 71%; background-color: #000000; float: left"><span style="visibility:hidden">hide</span>
+        </div>
+      </div>
+      <div style="font-family: arial, verdana, helvetica, sans-serif;font-size:90%">
+        <a rel="nofollow" href="https://www.goodreads.com/user_challenges/30662921">5 of 7 (71%)</a>
+      </div>
+      <div style="text-align: right;">
+        <a style="text-decoration: none; font-size: 10px;" rel="nofollow"
+          href="https://www.goodreads.com/user_challenges/30662921">view books</a>
+      </div>
+    </div>
+    <script
+      src="https://www.goodreads.com/user_challenges/widget/143236026-divy-bramhecha?challenge_id=11650&v=2"></script>
+  </div>
+
+  <iframe id="the_iframe"
+    src="https://goodreads.com/widgets/user_update_widget?height=600&num_updates=10&user=143236026&width=500"
+    width="600" height="600" frameborder="0" marginleft="50" style="
+    /* background: #00000013;  */
+    margin-left: 30px;">
+  </iframe>
+  <div id="gr_footer">
+    <a href="https://www.goodreads.com/">
+      <img alt="Goodreads: Book reviews, recommendations, and discussion" rel="nofollow"
+        src="https://s.gr-assets.com/images/layout/goodreads_logo_140.png" /> </a>
+  </div>
+</div>
+
+<br>
+<br>
+
+<ul class="taxonomy__index">
+
+  <li>
+    <a href="#Reading">
+      <h1 style="text-align:center;">Currently Reading</h1>
+    </a>
+  </li>
+  <li>
+    <a href="#Books_Read">
+      <h1 style="text-align:center;">Read</h1>
+    </a>
+  </li>
+  <li>
+    <a href="#Want_to_read">
+      <h1 style="text-align:center;">Want to Read</h1>
+    </a>
+  </li>
+
+</ul>
+
+
+<style type="text/css" media="screen">
+  .gr_grid_container {
+    /* customize grid container div here. eg: width: 500px; */
+    min-height: 80px;
+    min-width: 160px;
+    /* height: 300px; */
+    /* margin: 200px; */
+    /* flex-grow: inherit; */
+    height: inherit;
+  }
+
+  .gr_grid_book_container {
+    /* customize book cover container div here */
+    float: left;
+    width: 98px;
+    height: 160px;
+    padding: 3px 3px;
+    overflow: hidden;
+  }
+</style>
+
+</div>
+
+<section id="{{ tag[0] }}" class="taxonomy__section">
+  <a name=Reading>
+    <h4>Reading</h4>
+  </a>
+  <div class="entries-{{ entries_layout}}">
+    <sections>
+      <script
+        src="https://www.goodreads.com/review/grid_widget/143236026.Currently%20Reading?cover_size=medium&hide_link=true&hide_title=true&num_books=5&order=a&shelf=currently-reading&sort=avg_rating&widget_id=1637680096"
+        type="text/javascript" charset="utf-8"></script>
+    </sections>
+    <a href="#page-title" class="back-to-top">{{ site.data.ui-text[site.locale].back_to_top | default: 'Back to Top' }}
+      &uarr;</a>
+    <hr>
+    <a name=Books_Read>
+      <h4>Read</h4>
+    </a>
+    <sections>
+      <script
+        src="https://www.goodreads.com/review/grid_widget/143236026.Books%20Read?cover_size=medium&hide_link=true&hide_title=true&num_books=200&order=d&shelf=read&sort=date_read&widget_id=1637679349"
+        type="text/javascript" charset="utf-8"></script>
+    </sections>
+    <a href="#page-title" class="back-to-top">{{ site.data.ui-text[site.locale].back_to_top | default: 'Back to Top' }}
+      &uarr;</a>
+    <hr>
+    <a name=Want_to_read>
+      <h4>To Read</h4>
+    </a>
+    <sections>
+      <script
+        src="https://www.goodreads.com/review/grid_widget/143236026.Divy's%20to-read%20book%20montage?cover_size=medium&hide_link=true&hide_title=true&num_books=10&order=a&shelf=to-read&sort=avg_rating&widget_id=1637680454"
+        type="text/javascript" charset="utf-8"></script>
+    </sections>
+    <a href="#page-title" class="back-to-top">{{ site.data.ui-text[site.locale].back_to_top | default: 'Back to Top' }}
+      &uarr;</a>
+  </div>
+</section>
